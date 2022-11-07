@@ -1,6 +1,7 @@
 # RetroKomputer
 Repozytorium github potrzebne do realizacji projektu oraz sprawnej współpracy pomiędzy członkami grupy.
 
+Poniżej znajdują się pomocne linki do literatury internetowej oraz multimediów:
 https://www.masswerk.at/6502/6502_instruction_set.html?fbclid=IwAR3ZvT5JvzsjG5cuUfmELBjGfaCPa8W1qXs5acusjv949Jd1jkr_A9dACCs
 https://en.wikipedia.org/wiki/MOS_Technology_6502?fbclid=
 https://www.youtube.com/playlist?list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH
