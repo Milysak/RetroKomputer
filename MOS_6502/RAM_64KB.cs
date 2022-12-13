@@ -17,12 +17,12 @@ namespace MOS_6502
                 _ram[i] = 0xFF; // na każdy bajt przypada 8 bitów - 0xFF to 1111 1111
         }
 
-        public virtual byte Read(ushort address)
+        public byte Read(ushort address)
         {
             return _ram[address];
         }
 
-        public virtual void Write(ushort address, byte value)
+        public void Write(ushort address, byte value)
         {
             _ram[address] = value;
         }
