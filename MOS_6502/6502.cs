@@ -120,15 +120,6 @@ namespace MOS_6502
                  * Po zsumowaniu: 1000 0011 - czyli pierwsza jedynka odpowiada za Negative, druga za Zero a trzecia za Carry.
                  */
             }
-            set
-            {
-                _carry = (value & 0x1) != 0;
-                _zero = (value & 0x2) != 0;
-                _interrupt = (value & 0x4) != 0;
-                _decimal = (value & 0x8) != 0;
-                _overflow = (value & 0x40) != 0;
-                _negative = (value & 0x80) != 0;
-            }
         }
         public byte Status { get { return _status; } }
 
